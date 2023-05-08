@@ -1,0 +1,54 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // margin-left: 35px;
+    // margin-right: 35px;
+    // margin-top: 50px;
+    background-image: url('../hasta.webp');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin-top: -10px;
+    background-position: center;
+  }
+  a {
+    text-decoration: none;
+  }
+  .galeria img {
+    width: 70%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border-color: green;
+    border-width: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+    .galeria {
+      flex-direction: column;
+      align-items: center;
+    }
+    .galeria img {
+      width: 80%;
+      margin-bottom: 200px;
+    }
+  }
+
+  button.boton-anterior {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.boton-siguiente{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }

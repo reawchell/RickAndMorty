@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'rickandmorty';
+  src: url('./public/fonts/rickandmorty.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+.link {
+  font-family: 'rickandmorty', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+
+
+body {
+  font-family: 'rickandmorty', sans-serif;
+  
+}
+
+h1 {
+  font-family: 'rickandmorty', sans-serif;
+  font-size: 3rem;
+  
+}
+
+@font-face {
+  font-family: 'rickandmorty';
+  src: url(`./rickYmorty/public/fonts/rickandmorty.ttf`) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bar {
+  font-family: 'rickandmorty', sans-serif;
+  
+}
+
+.bar{
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    
+  }
+  
+  li {
+    list-style: none;
+    font-size: 2rem;
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  
+  img {
+    width: 2rem;
+  }
+
+
+.bar.dia{
+    color: black;
+    text-decoration: solid;
+    text-transform: uppercase;
+   
+    
+}
+.bar.noche{
+    color: white;
+    background-color:#090606 ;
+    text-transform: uppercase;
+}
+
+    
+    ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        text-transform: uppercase;
+    }
+    img{
+        width:50px;
+    }
+

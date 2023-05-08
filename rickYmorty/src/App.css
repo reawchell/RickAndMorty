@@ -1,0 +1,15 @@
+.app {
+  /* background-color: #f0f0f0; */
+  min-height: 100vh;
+  padding: 2rem;
+  
+}
+
+.app.dia {
+  color: black;
+}
+
+.app.noche {
+  color: black;
+  background-color: black;
+}
